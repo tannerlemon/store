@@ -20,7 +20,8 @@ function App() {
   const client = {
     sandbox:
       "ARLbt9djNfVY59oiM4V-ZlXwQAnOIaKAy9pyTo-1ADBeowVf6cQ48dGpu5E2FU2JpHasiixPUwl08Hp3",
-    production: "YOUR-PRODUCTION-APP-ID",
+    production:
+      "AfhPvda5f-OrXROtYWH-f-YQag4vr3kyitybb-aZyBREXeCeLVqoGgkQU6wPudZzMWn86xztlHj912bh",
   };
 
   const paintings = [
@@ -127,7 +128,7 @@ function App() {
               <img alt={`${painting.title} painting`} src={painting.img} />
             </div>
             <PaypalExpressBtn
-              env="sandbox"
+              env="production"
               client={client}
               currency={"USD"}
               total={painting.price}

@@ -11,7 +11,7 @@ import color from "./imgs/10.jpg";
 import mind from "./imgs/11.jpg";
 import abstract from "./imgs/12.jpg";
 import dark from "./imgs/13.jpg";
-import crazy from "./imgs/crazy.JPG";
+// import crazy from "./imgs/crazy.JPG";
 import david from "./imgs/david.JPG";
 import sit from "./imgs/sit.JPG";
 import meh from "./imgs/meh.JPG";
